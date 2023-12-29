@@ -49,6 +49,11 @@ async def on_ready(): #tworzenie funkcji on_ready (po włączeniu)
     print("Bot został uruchomiony") #funkcja print z angielskiego jest to drukowanie na ekranie w naszym przypadku jest to drukowanie w konsoli treści zawartej w ''
     await obj.commands_func() #wywołanie funkcji do plików z linijki 31
 
+#Tworzenie komendy w głównym pliku bota
+@client.command() #tworzenie komendy
+async def test(ctx): #tworzenie nazwy funkcji czyli nazwy komendy 
+    ctx.send("TESTOWA KOMENDA") #wysyłanie wiadomości na kanał na którym została wywołana komenda
+
 #teraz stworzymy funkcje która uruchamia bota
     
 client.run('MTE4OTk1MzI0NzE3MjEwNDIwMg.GKDquQ.qYC2MAsP0Pmh-lybqd5BGRMBP1cmmxBN9GU--w') #Możemy dodać config który będziemy zmieniać w pliku config aby to zrobić trzeba stworzyć plik config.py oraz stworzyć słownik w pliku konfiguracyjnym gdzie przypiszemy token i inne funkcje które potrzebujemy
