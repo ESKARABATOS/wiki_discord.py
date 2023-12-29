@@ -56,7 +56,7 @@ async def test(ctx): #tworzenie nazwy funkcji czyli nazwy komendy
 
 #teraz stworzymy funkcje która uruchamia bota
     
-client.run('MTE4OTk1MzI0NzE3MjEwNDIwMg.GKDquQ.qYC2MAsP0Pmh-lybqd5BGRMBP1cmmxBN9GU--w') #Możemy dodać config który będziemy zmieniać w pliku config aby to zrobić trzeba stworzyć plik config.py oraz stworzyć słownik w pliku konfiguracyjnym gdzie przypiszemy token i inne funkcje które potrzebujemy
+client.run('') #Możemy dodać config który będziemy zmieniać w pliku config aby to zrobić trzeba stworzyć plik config.py oraz stworzyć słownik w pliku konfiguracyjnym gdzie przypiszemy token i inne funkcje które potrzebujemy
 
 #3 TWORZENIE BOTA NA STRONIE
 #token bota uzyskasz na tej stronie https://discord.com/developers/docs/intro
